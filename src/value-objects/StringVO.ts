@@ -1,4 +1,4 @@
-abstract class StringVO {
+export abstract class StringVO {
   private _value: string;
 
   constructor(value: string) {
