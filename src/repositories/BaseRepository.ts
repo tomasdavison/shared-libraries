@@ -12,7 +12,7 @@ export abstract class BaseRepository<T> implements IWrite<T>, IRead<T> {
     delete(id: EntityId): Promise<boolean> {
         throw new Error("Method not implemented.");
     }
-    find(item: T): Promise<T[]> {
+    findAll(item: T): Promise<T[]> {
         throw new Error("Method not implemented.");
     }
     findOne(id: EntityId): Promise<T> {
